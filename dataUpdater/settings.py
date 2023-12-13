@@ -154,7 +154,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = 'users_app.User'
 
 # Настройки Celery
-CELERY_BROKER_URL = 'pyamqp://guest:guest@localhost:5672//'
-CELERY_RESULT_BACKEND = 'rpc://'
+CELERY_BROKER_URL = 'amqp://guest:guest@localhost:5672'
+# CELERY_RESULT_BACKEND = 'amqp://http://84.201.187.112:15672/
 
 
