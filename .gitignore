@@ -1,0 +1,53 @@
+# Virtual environment
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Secret key
+secret_key.txt
+
+# Environment variables
+.env
+
+# IDE settings
+.idea/
+.vscode/
+
+# Django migration files
+*/migrations/
+
+# Local development settings
+local_settings.py
+
+# Static files
+staticfiles/
+
+# Media files
+media/
+
+# Ignore the db.sqlite3 file
+db.sqlite3
+
+# Ignore Python environment
+.env/
+.envrc
+
+# Ignore pipenv virtual environment
+/.venv
+
+# Ignore poetry virtual environment
+/.venv/
+
+# Ignore logs and other dynamic data
+/log/
+/logs/
+/run/
+/runs/
